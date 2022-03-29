@@ -1,0 +1,32 @@
+main button {
+	background: linear-gradient(0.25turn, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+}
+main button:hover {
+	background: transparent;
+	border-color: hsla(232, 13%, 33%, 0.3);
+	color: hsl(237, 63%, 64%);
+}
+main#active {
+	background: radial-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+	color: white;
+	box-sizing: content-box;
+	padding: 2.5em 2em;
+}
+main#active hr {
+	border: 0.5px solid rgba(255, 255, 255, 0.3);
+}
+main#active button {
+	color: hsl(237, 63%, 64%);
+	background: white;
+}
+main#active button:hover {
+	border: 1px solid white;
+	color: white;
+	background: transparent;
+}
+
+main#active span,
+main#active h1,
+main#active header {
+	color: white;
+}

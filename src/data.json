@@ -1,58 +1,52 @@
 {
-    "Cards":[
-        {
-            "cardName":"basic",
-            "annually":{
-                "Price":"199.99",
-                "storage":"500 gb storage",
-                "usersAllowed":"2",
-                "sendCapacity":"3"
-                
-            },
-            "monthly":{
-                "Price":"19.99",
-                "storage":"500 gb storage",
-                "usersAllowed":"2",
-                "sendCapacity":"3"
-                
-            },
-            "id":2
-        },
-        {
-            "cardName":"professional",
-            "annually":{
-                "Price":"249.99",
-                "storage":"1 tb storage",
-                "usersAllowed":"5",
-                "sendCapacity":"10"
-                
-            },
-            "monthly":{
-                "Price":"24.99",
-                "storage":"1 tb storage",
-                "usersAllowed":"5",
-                "sendCapacity":"10"
-
-            },
-            "id":1
-        },
-        {
-            "cardName":"master",
-            "annually":{
-                "Price":"399.99",
-                "storage":"2 tb storage",
-                "usersAllowed":"10",
-                "sendCapacity":"20"
-                
-            },
-            "monthly":{
-                "Price":"39.99",
-                "storage":"2 tb storage",
-                "usersAllowed":"10",
-                "sendCapacity":"20"
-
-            },
-            "id":3
-        }
-    ]
+	"Cards": [
+		{
+			"cardName": "basic",
+			"annually": {
+				"Price": "199.99",
+				"storage": "500 gb storage",
+				"usersAllowed": "2",
+				"sendCapacity": "3"
+			},
+			"monthly": {
+				"Price": "19.99",
+				"storage": "500 gb storage",
+				"usersAllowed": "2",
+				"sendCapacity": "3"
+			},
+			"id": 2
+		},
+		{
+			"cardName": "professional",
+			"annually": {
+				"Price": "249.99",
+				"storage": "1 tb storage",
+				"usersAllowed": "5",
+				"sendCapacity": "10"
+			},
+			"monthly": {
+				"Price": "24.99",
+				"storage": "1 tb storage",
+				"usersAllowed": "5",
+				"sendCapacity": "10"
+			},
+			"id": 1
+		},
+		{
+			"cardName": "master",
+			"annually": {
+				"Price": "399.99",
+				"storage": "2 tb storage",
+				"usersAllowed": "10",
+				"sendCapacity": "20"
+			},
+			"monthly": {
+				"Price": "39.99",
+				"storage": "2 tb storage",
+				"usersAllowed": "10",
+				"sendCapacity": "20"
+			},
+			"id": 3
+		}
+	]
 }
